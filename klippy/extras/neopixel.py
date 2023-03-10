@@ -7,7 +7,7 @@ import logging
 
 BACKGROUND_PRIORITY_CLOCK = 0x7fffffff00000000
 
-BIT_MAX_TIME=.000004
+BIT_MAX_TIME=.000030 # increased as suggested her: https://klipper.discourse.group/t/issues-with-45-led-neopixel-chain/4026/7
 RESET_MIN_TIME=.000050
 
 MAX_MCU_SIZE = 500  # Sanity check on LED chain length
